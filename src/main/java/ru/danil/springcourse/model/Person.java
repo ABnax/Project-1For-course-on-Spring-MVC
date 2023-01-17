@@ -14,9 +14,9 @@ public class Person {
     private int age;
 
     public Person () {}
-    public Person(String fullName,int yearOfBirth) {
-        this.name = fullName;
-        this.age = yearOfBirth;
+    public Person(String name,int year) {
+        this.name = name;
+        this.age = year;
     }
 
     public int getId() {return id;}
