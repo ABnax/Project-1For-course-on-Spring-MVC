@@ -17,8 +17,8 @@ public class Book {
     @NotEmpty(message = "Автор не может быть без имени")
     private String author;
 
-    public Book(String nameBook,int year, String author) {
-        this.title = nameBook;
+    public Book(String title,int year, String author) {
+        this.title = title;
         this.year = year;
         this.author = author;
     }
